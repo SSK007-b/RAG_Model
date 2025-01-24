@@ -119,5 +119,7 @@ This project is licensed under the [MIT License](LICENSE).
 - **FAISS**: For fast and scalable vector search.
 - **Streamlit**: For creating an interactive user interface.
 
+## Example 1
 ![Upload PDF Screenshot](images/Image1.jpeg)
+## Example 2
 ![Upload PDF Screenshot](images/Image2.jpeg)
