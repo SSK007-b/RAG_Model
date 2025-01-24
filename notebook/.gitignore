@@ -1,0 +1,19 @@
+
+.DS_Store
+.vscode/
+.idea/
+__pycache__/
+.cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+```
+.venv
+.env
+env
+venv
+
+Data.pdf
+metadata.json
+
+vectors.index
