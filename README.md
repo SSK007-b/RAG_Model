@@ -118,3 +118,6 @@ This project is licensed under the [MIT License](LICENSE).
 - **Google Generative AI**: For powering embeddings and responses.
 - **FAISS**: For fast and scalable vector search.
 - **Streamlit**: For creating an interactive user interface.
+
+![Alt text](images\Image1.jpeg)
+![Alt text](images\Image2.jpeg)

@@ -10,7 +10,7 @@ load_dotenv()
 key = os.getenv("GOOGLE_API")
 model = "models/embedding-001"
 
-st.title("AI PDF Query System")
+st.title("Documet Extractor")
 st.write("Upload a PDF, and ask questions based on its content.")
 
 # File uploader
