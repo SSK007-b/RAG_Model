@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  faiss-bot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: faiss_bot_container
+    environment:
+      - GOOGLE_API=${GOOGLE_API}
+    volumes:
+      - ./notebook:/app/notebook
+      - ./data:/app/data
+    ports:
+      - "8080:8080" # Modify this if the bot serves a web app
+    command: ["python", "main.py"]
+
+# Volumes and environment variables can be extended as needed.
